@@ -35,14 +35,14 @@ const Home = () => {
             />
           }
           <Features/>
-          <Card className="px-5">
-            <CardHeader>
-              <h2>Mission</h2>
-            </CardHeader>
-            <CardBody>
-              <b>
-                <p className="px-5">
-                  We are committed to maintain the highest standard of care and
+          <br></br>
+          <Card className="px-5" style={{borderRadius:"20px", marginLeft:"35px", marginRight:"35px",backgroundColor:"#C4E4FF"}}>
+          <br></br>
+            <CardBody style={{backgroundColor:"white", borderRadius:"10px"}}>
+              <div class="jumbotron">
+                <h1 class="display-4">Our Mission</h1>
+                <hr class="my-4"/>
+                <p>We are committed to maintain the highest standard of care and
                   respond to the needs of the community in a compassionate
                   manner.To provide state-of-the-art, high quality and
                   cost-effective healthcare services and latest information to
@@ -52,10 +52,10 @@ const Home = () => {
                   therapeutic relationship based on compassion that is felt,
                   quality that is measurable and cost that is affordable. To
                   become partners in health promotion with every section of
-                  society.
-                </p>
-              </b>
+                  society.</p> 
+              </div>
             </CardBody>
+            <br></br>
         </Card>
       </div></BaseCart>
   );

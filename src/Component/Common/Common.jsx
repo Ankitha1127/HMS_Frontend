@@ -8,14 +8,14 @@ import Base from "../Base/Base";
 const Common = (props) => {
   return (
     <>
-      <section id="header" className="d-flex align-items-center">
+      <section id="header" className="d-flex align-items-center" style={{marginTop:"-120px"}}>
       <div className="container-fluid ">
             <div classNamerow='row'>
                 <div className="col-10 mx-auto">
                   <div className="row">
 
                   
-                 <div   className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center">
+                 <div >
                   <h1> Welcome to<strong className="brand-name"> HealCare </strong> {props.name}
                   </h1>
                    <h2 className="my-3">

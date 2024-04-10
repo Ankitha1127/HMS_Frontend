@@ -16,7 +16,8 @@ export default function Features()
 {
     return(
         <div style={{marginLeft:"40px", marginRight:"40px"}}>
-        <div style={{backgroundColor:"#C4E4FF"}}>
+        <div style={{backgroundColor:"#C4E4FF", borderRadius:"20px"}}>
+        <br></br>
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
                 <h2 className="h2 mb-4">We have several features which are userfriendly and needy in a technological world.</h2>
                 <p className="text-xl text-gray-400">These features helps us to store and track patient information along with secure access to the data.</p>
@@ -109,7 +110,7 @@ export default function Features()
             <h1 className="h2 mb-4"><b>Our statistics</b></h1>
           </div>
             
-        <div style={{backgroundColor:"#C4E4FF"}}>
+        <div style={{backgroundColor:"#C4E4FF", borderRadius:"20px"}}>
             <MDBRow style={{paddingTop:"20px", paddingBottom:"20px", paddingLeft:"20px", paddingRight:"20px"}}>
             <MDBCol sm='3'>
                 <MDBCard>
