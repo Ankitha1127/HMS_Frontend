@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Carousel } from "react-bootstrap";
-import img1 from "../images/hc1.jpg";
-import img2 from "../images/hc2.jpg";
+import img1 from "../images/hc1.png";
+import img2 from "../images/hc2.png";
 import img3 from "../images/dj.jpg";
 
 function CreateCorosol() {
