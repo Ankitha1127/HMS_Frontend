@@ -35,7 +35,7 @@ const Home = () => {
             />
           }
           <Features/>
-          <br></br>
+          
           <Card className="px-5" style={{borderRadius:"20px", marginLeft:"35px", marginRight:"35px",backgroundColor:"#C4E4FF"}}>
           <br></br>
             <CardBody style={{backgroundColor:"white", borderRadius:"10px"}}>

@@ -7,7 +7,22 @@ import BaseCa from "../Base/BaseCa";
 function Card(props) {
   return (<BaseCa>
       <>
-        <div className="col-md-4 col-10 mx-auto">
+      {/* <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            One of three columns
+          </div>
+          <div class="col-sm">
+            One of three columns
+          </div>
+          <div class="col-sm">
+            One of three columns
+          </div>
+        </div>
+      </div> */}
+
+
+        <div className="col-md-6 col-10 mx-auto">
           <div className="card">
             <img
               src={props.imgsrc}
@@ -23,6 +38,7 @@ function Card(props) {
               </NavLink>
             </div>
           </div>
+          <br></br>
         </div>
       </></BaseCa>
   );

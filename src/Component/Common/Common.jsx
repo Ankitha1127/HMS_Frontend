@@ -8,7 +8,7 @@ import Base from "../Base/Base";
 const Common = (props) => {
   return (
     <>
-      <section id="header" className="d-flex align-items-center" style={{marginTop:"-120px"}}>
+      <section id="header" className="d-flex align-items-center" style={{marginTop:"-120px", marginBottom:"-120px"}}>
       <div className="container-fluid ">
             <div classNamerow='row'>
                 <div className="col-10 mx-auto">

@@ -10,7 +10,7 @@ function Home() {
     fullname:'',
     phone:'',
     email:'',
-    msg:','
+    msg:''
   });
   const InputEvent = (event) =>{
    const {name, value}= event.target;
@@ -32,7 +32,7 @@ function Home() {
       Contact Us
      </h1>
     </div>
-    <div className="container contact_div">
+    <div className="container contact_div" >
     <div className="row">
       <div className="col-md-6 col-10 mx-auto">
     <form onSubmit={formSubmit}>
@@ -50,10 +50,10 @@ function Home() {
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg" value={data.msg} onChange={InputEvent}></textarea>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg" value={data.msg} onChange={InputEvent} placeholder="Type your message here"></textarea>
 </div>
 <div class="col-12">
-    <button class="btn btn-outline-primary" type="submit">Submit form</button>
+    <button class="btn btn-outline-primary" type="submit" style={{marginLeft:"45%"}}>Submit form</button>
   </div>
     </form>
       </div>
