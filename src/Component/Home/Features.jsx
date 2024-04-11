@@ -1,7 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandsHoldingChild } from '@fortawesome/free-solid-svg-icons';
-
+import { faCopy } from '@fortawesome/free-solid-svg-icons';
+import { faChartSimple } from '@fortawesome/free-solid-svg-icons';
+import { faCloudArrowUp } from '@fortawesome/free-solid-svg-icons';
 import {
     MDBCard,
     MDBCardBody,
@@ -22,15 +24,16 @@ export default function Features()
                 <h2 className="h2 mb-4">We have several features which are userfriendly and needy in a technological world.</h2>
                 <p className="text-xl text-gray-400">These features helps us to store and track patient information along with secure access to the data.</p>
             </div>
-            <MDBCard style={{marginLeft:"150px", marginRight:"150px",marginTop:"20px",marginBottom:"20px"}}>
-                <MDBCardBody>
+            <MDBCard style={{marginLeft:"150px", marginRight:"150px",marginTop:"20px",marginBottom:"10px"}}>
+                <MDBCardBody style={{paddingBottom:"-80px"}}>
             <section class="mb-5">
             <div class="row gx-lg-5">
                 <div class="col-lg-6 mb-5">
                 <div class="d-flex align-items-start">
                 <div class="flex-shrink-0">
                     <div class="p-3 badge-primary rounded-4">
-                        <i class="fas fa-copy fa-lg text-primary fa-fw"></i>
+                        {/* <i class="fas fa-copy fa-lg text-primary fa-fw"></i> */}
+                        <FontAwesomeIcon icon={faCopy} style={{fontSize:"40px", color:"#124076"}}/>
                     </div>
                     </div>
                     <div class="flex-grow-1 ms-4">
@@ -47,9 +50,7 @@ export default function Features()
                 <div class="d-flex align-items-start">
                     <div class="flex-shrink-0">
                     <div class="p-3 badge-primary rounded-4">
-                        <FontAwesomeIcon icon="fas fa-hands-holding-child fa-lg text-primary fa-fw" />
-                        {/* <i class="fas fa-database fa-lg text-primary fa-fw"></i> */}
-                        {/* <i class="fas fa-solid fa-hands-holding-child"></i> */}
+                        <FontAwesomeIcon icon={faHandsHoldingChild} style={{fontSize:"40px", color:"#124076"}}/>
                     </div>
                     </div>
                     <div class="flex-grow-1 ms-4">
@@ -66,9 +67,7 @@ export default function Features()
                 <div class="d-flex align-items-start">
                     <div class="flex-shrink-0">
                     <div class="p-3 badge-primary rounded-4">
-                    <FontAwesomeIcon icon="fa-regular fa-chart-mixed" />
-                        {/* <i class="fas fa-chart-mixed fa-lg text-primary fa-fw"></i> */}
-                        {/* <i class="fas fa-stream fa-lg text-primary fa-fw"></i> */}
+                        <FontAwesomeIcon icon={faChartSimple} style={{fontSize:"40px", color:"#124076"}}/>
                     </div>
                     </div>
                     <div class="flex-grow-1 ms-4">
@@ -85,7 +84,8 @@ export default function Features()
                 <div class="d-flex align-items-start">
                     <div class="flex-shrink-0">
                     <div class="p-3 badge-primary rounded-4">
-                        <i class="fas fa-cloud-upload-alt fa-lg text-primary fa-fw"></i>
+                        {/* <i class="fas fa-cloud-upload-alt fa-lg text-primary fa-fw"></i> */}
+                        <FontAwesomeIcon icon={faCloudArrowUp} style={{fontSize:"40px", color:"#124076"}}/>
                     </div>
                     </div>
                     <div class="flex-grow-1 ms-4">
